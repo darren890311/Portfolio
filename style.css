@@ -1,0 +1,85 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section {
+  position: relative;
+  background: url("hero2.png") no-repeat center center/cover;
+  color: white;
+  height: 90vh;
+  width: 100%;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5rem;
+}
+
+.hero-section h1 {
+  color: white !important;
+  font-family: "Pacifico", cursive;
+}
+
+.me-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bd-placeholder-img {
+  object-fit: cover;
+}
+
+.fw-normal {
+  color: #6eacda;
+}
+
+.self {
+  margin-bottom: 5rem;
+}
+img {
+  margin-bottom: 3rem;
+}
+.hi {
+  margin-bottom: 3rem;
+}
+
+.list-unstyled {
+  margin-bottom: 5rem;
+}
+
+.objective > img {
+  width: 320px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.footer {
+  margin-bottom: 0;
+}
+
+.footer .container {
+  max-width: 100%;
+}
+
+.last {
+  background-color: #6eacda;
+}
+
+.footer .nav-item a {
+  color: white !important;
+}
+
+.footer .text-body-secondary {
+  color: white !important;
+}
